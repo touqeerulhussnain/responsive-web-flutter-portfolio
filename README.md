@@ -36,15 +36,6 @@ These instructions will help you run the project locally on your machine.
 
 ---
 
-### Running the Project
+### Screenshots
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/<USERNAME>/<REPO>.git
-cd <REPO>
-''''
-
-
-## Screenshots
-
-![Alt text](/../<branch name>/path/to/image.png?raw=true "Optional Title")
+![Alt text](assets/screenshots/p1.png)
