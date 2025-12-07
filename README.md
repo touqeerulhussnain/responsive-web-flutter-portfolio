@@ -42,3 +42,10 @@ These instructions will help you run the project locally on your machine.
 ```bash
 git clone https://github.com/<USERNAME>/<REPO>.git
 cd <REPO>
+
+### Screenshots
+
+![Screenshot 1](assets/screenshots/p1.png)
+![Screenshot 2](assets/screenshots/p2.png)
+![Screenshot 3](assets/screenshots/p3.png)
+![Screenshot 4](assets/screenshots/p4.png)
