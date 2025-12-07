@@ -43,9 +43,8 @@ These instructions will help you run the project locally on your machine.
 git clone https://github.com/<USERNAME>/<REPO>.git
 cd <REPO>
 
-### Screenshots
 
-![Screenshot 1](assets/screenshots/p1.png)
-![Screenshot 2](assets/screenshots/p2.png)
-![Screenshot 3](assets/screenshots/p3.png)
-![Screenshot 4](assets/screenshots/p4.png)
+<img width="984" height="715" alt="p1" src="https://github.com/user-attachments/assets/3db5c4fe-280b-4531-b546-aeb2d698a99a" />
+<img width="555" height="730" alt="p2" src="https://github.com/user-attachments/assets/4afa2bba-0184-4cfe-9109-66d07d053368" />
+<img width="556" height="724" alt="p3" src="https://github.com/user-attachments/assets/90f0ce91-419d-4471-b047-d73fbc63a40e" />
+<img width="1063" height="672" alt="p4" src="https://github.com/user-attachments/assets/e58147ba-a2fb-45d1-af7f-5c1209ebb267" />
