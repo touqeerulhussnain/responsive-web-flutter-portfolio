@@ -1,21 +1,44 @@
-<<<<<<< HEAD
-# open_source_flutter_portfolio
+# Responsive Web Flutter Portfolio
 
-A new Flutter project.
+A fully responsive Flutter web portfolio built as a single-page application with smooth scrolling, custom animations, and a clean Plus Jakarta Sans UI. Uses GetX for state management and static data. Assets may not all be verified; avoid adding copyrighted or paid assets. GPL-3.0 licensed.
+
+---
+
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Running the Project](#running-the-project)
+- [Folder Structure](#folder-structure)
+- [Asset Notice](#asset-notice)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Features
+- 🌐 **Single-page Flutter Web Application**
+- 📱 **Fully Responsive** – optimized for mobile, tablet, and desktop
+- 🎨 **Custom Design System** – self-designed UI using Plus Jakarta Sans font
+- ✨ **Custom Animations** – subtle and smooth animations at multiple sections
+- 🧭 **State Management** – GetX for simple and structured state handling
+- 🗂 **Static Data Only** – no backend or external API dependencies
+- ⚖️ **GPL-3.0 Licensed** – open source, free to use and modify
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will help you run the project locally on your machine.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
+- Flutter installed (stable version recommended)
+- A code editor (VS Code, Android Studio, etc.)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# responsive-web-flutter-portfolio
-A fully responsive Flutter web portfolio built as a single-page app with smooth scroll, custom animations, and a clean Plus Jakarta Sans UI. Uses GetX for state management and static data. Assets may not all be verified; avoid adding copyrighted or paid assets. GPL-3.0 licensed.
->>>>>>> d55fc1bd6859fa007d68c093f49c97defebf3379
+### Running the Project
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/<USERNAME>/<REPO>.git
+cd <REPO>
