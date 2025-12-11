@@ -68,13 +68,14 @@ class HorizontalButtonList extends StatelessWidget {
                     ? AppStyles.primaryStyle(
                         context: context,
                         color: AppTheme.whiteText(context),
-                        fontSize: AppResponsiveness.adjustSize(AppSizes.font20),
-                        fontWeight: AppStyles.w500,
+                        fontSize: AppResponsiveness.adjustSize(AppSizes.font14),
+                        fontWeight: AppStyles.w700,
                       )
                     : AppStyles.secondaryStyle(
                         context: context,
                         color: AppTheme.blackText(context),
-                        fontSize: AppResponsiveness.adjustSize(AppSizes.font20),
+                        fontWeight: AppStyles.w500,
+                        fontSize: AppResponsiveness.adjustSize(AppSizes.font14),
                       ),
               ),
             ),

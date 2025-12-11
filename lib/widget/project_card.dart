@@ -18,6 +18,7 @@ class ProjectCard extends StatelessWidget {
     this.height = AppSizes.height130,
     this.width = AppSizes.width130,
     required this.lableText,
+    this.onWeb,
   });
   final String assetPath;
   final String title;
@@ -25,6 +26,7 @@ class ProjectCard extends StatelessWidget {
   final String description;
   final Function()? onPlayStoreTap;
   final Function()? onAppStoreTap;
+  final Function()? onWeb;
   final Color uniqueColor;
   final double height;
   final double width;
@@ -39,7 +41,21 @@ class ProjectCard extends StatelessWidget {
           decoration: BoxDecoration(
             color: AppTheme.background(context),
             borderRadius: BorderRadius.circular(AppSizes.radius60),
-            border: Border.all(color: AppTheme.borderColor(context)),
+            border: Border.all(color: uniqueColor),
+            boxShadow: [
+              BoxShadow(
+                color: uniqueColor.withOpacity(.3),
+                blurRadius: 5,
+                spreadRadius: 0,
+                offset: Offset(0, 5),
+              ),
+              // BoxShadow(
+              //   color: AppTheme.background(context),
+              //   blurRadius: 1,
+              //   spreadRadius: .2,
+              //   offset: Offset(0, 5),
+              // ),
+            ],
           ),
           padding: EdgeInsets.only(
             left: AppSizes.padding32,
@@ -117,6 +133,14 @@ class ProjectCard extends StatelessWidget {
                             onTap: onAppStoreTap,
                             child: CustomSvg(
                               assetPath: AppAssets.apple,
+                              color: uniqueColor,
+                            ),
+                          ),
+                        if (onWeb != null)
+                          GestureDetector(
+                            onTap: onAppStoreTap,
+                            child: CustomSvg(
+                              assetPath: AppAssets.web,
                               color: uniqueColor,
                             ),
                           ),

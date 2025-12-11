@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:open_source_flutter_portfolio/core/constants/app_constant.dart';
+import 'package:open_source_flutter_portfolio/core/utils/url_launcher_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../core/constants/app_assets.dart';
 import '../../core/constants/app_colors.dart';
@@ -357,8 +358,15 @@ class HomeView extends StatelessWidget {
                 assetPath: AppAssets.iphoneBody,
                 title: AppStrings.projectOneTitle,
                 description: AppStrings.projectOneDescription,
-                onPlayStoreTap: () {},
-                onAppStoreTap: () {},
+                onPlayStoreTap: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
+                onAppStoreTap: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
+                onWeb: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
                 uniqueColor: AppColors.blue,
                 lableText: AppStrings.chipOneText,
               ),
@@ -367,8 +375,12 @@ class HomeView extends StatelessWidget {
                 assetPath: AppAssets.iphoneBody,
                 title: AppStrings.projectOneTitle,
                 description: AppStrings.projectOneDescription,
-                onPlayStoreTap: () {},
-                onAppStoreTap: () {},
+                onPlayStoreTap: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
+                onAppStoreTap: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
                 uniqueColor: AppColors.purple,
                 lableText: AppStrings.chipOneText,
               ),
@@ -377,8 +389,12 @@ class HomeView extends StatelessWidget {
                 assetPath: AppAssets.iphoneBody,
                 title: AppStrings.projectOneTitle,
                 description: AppStrings.projectOneDescription,
-                onPlayStoreTap: () {},
-                onAppStoreTap: () {},
+                onPlayStoreTap: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
+                onAppStoreTap: () {
+                  UrlLauncherService.launchUrlLink(AppConstants.websiteLink);
+                },
                 uniqueColor: AppColors.orange,
                 lableText: AppStrings.chipOneText,
               ),

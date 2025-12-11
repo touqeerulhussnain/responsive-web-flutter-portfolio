@@ -34,4 +34,5 @@ class AppAssets {
   static final String copy = "$_assest/$_icons/copy.svg";
   static final String tick = "$_assest/$_icons/tick.svg";
   static final String email = "$_assest/$_icons/email.svg";
+  static final String web = "$_assest/$_icons/web.svg";
 }

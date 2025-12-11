@@ -19,4 +19,6 @@ class AppConstants {
       "https://drive.google.com/file/d/YOUR_PDF_ID/view?usp=sharing";
 
   static String email = "touqeerulhussnain@gmail.com";
+
+  static String websiteLink = "https://touqeerulhussnain.com";
 }
