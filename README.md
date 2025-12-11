@@ -1,5 +1,4 @@
 # Responsive Web Flutter Portfolio
-
 A fully responsive Flutter web portfolio built as a single-page application with smooth scrolling, custom animations, and a clean Plus Jakarta Sans UI. Uses GetX for state management and static data. Assets may not all be verified; avoid adding copyrighted or paid assets. GPL-3.0 licensed.
 
 ---
@@ -27,7 +26,6 @@ A fully responsive Flutter web portfolio built as a single-page application with
 ---
 
 ## Getting Started
-
 These instructions will help you run the project locally on your machine.
 
 ### Prerequisites
@@ -37,15 +35,54 @@ These instructions will help you run the project locally on your machine.
 ---
 
 ### Running the Project
-
 1. **Clone the repository**
 ```bash
 git clone https://github.com/<USERNAME>/<REPO>.git
 cd <REPO>
+```
 
-### Screenshots
+2. **Install dependencies**
+```bash
+flutter pub get
+```
 
-![Screenshot 1](assets/screenshots/p1.png)
-![Screenshot 2](assets/screenshots/p2.png)
-![Screenshot 3](assets/screenshots/p3.png)
-![Screenshot 4](assets/screenshots/p4.png)
+3. **Run the application**
+```bash
+flutter run -d chrome
+```
+
+---
+
+## Folder Structure
+```
+lib/
+├── main.dart
+├── controllers/
+├── views/
+├── widgets/
+└── utils/
+```
+
+---
+
+## Screenshots
+
+![Portfolio Screenshot](assets/screenshots/p1.png)
+![Portfolio Screenshot](assets/screenshots/p2.png)
+![Portfolio Screenshot](assets/screenshots/p3.png)
+![Portfolio Screenshot](assets/screenshots/p4.png)
+
+---
+
+## Asset Notice
+This project may contain assets that have not been fully verified for licensing. Please ensure any assets you use comply with their respective licenses and avoid including copyrighted or paid assets without permission.
+
+---
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+---
+
+## License
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
