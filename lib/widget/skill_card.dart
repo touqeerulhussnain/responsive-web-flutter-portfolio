@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_assets.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_colors.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_sizes.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_styles.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_theme.dart';
-import 'package:open_source_flutter_portfolio/core/utils/app_responsiveness.dart';
-import 'package:open_source_flutter_portfolio/widget/custom_svg.dart';
-import 'package:open_source_flutter_portfolio/widget/dotted_border_widget.dart';
-import 'package:open_source_flutter_portfolio/widget/animation/pulse_float_motion.dart';
+import '/core/constants/app_assets.dart';
+import '/core/constants/app_colors.dart';
+import '/core/constants/app_sizes.dart';
+import '/core/constants/app_styles.dart';
+import '/core/constants/app_theme.dart';
+import '/core/utils/app_responsiveness.dart';
+import '/widget/custom_svg.dart';
+import '/widget/dotted_border_widget.dart';
+import '/widget/animation/pulse_float_motion.dart';
 
 class SkillCard extends StatelessWidget {
   const SkillCard({
@@ -31,7 +31,14 @@ class SkillCard extends StatelessWidget {
       builder: (context, constraint) {
         return Container(
           // height: 400,
-          width: AppResponsiveness.setWidth(context, width: .8),
+          width: AppResponsiveness.setWidth(
+            context,
+            width: AppResponsiveness.getSize(
+              onWeb: AppSizes.fraction8,
+              onMobile: AppSizes.fraction9,
+              onSmallMobile: AppSizes.fraction9,
+            ),
+          ),
 
           decoration: BoxDecoration(
             color: AppTheme.background(context),

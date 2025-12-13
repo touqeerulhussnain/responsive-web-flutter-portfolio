@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_constant.dart';
-import 'package:open_source_flutter_portfolio/core/utils/url_launcher_service.dart';
+import '/core/constants/app_constant.dart';
+import '/core/utils/url_launcher_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../../core/constants/app_assets.dart';
 import '../../core/constants/app_colors.dart';
@@ -31,29 +31,30 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: Padding(
-        padding: EdgeInsets.only(
-          bottom: AppResponsiveness.getSize(onWeb: 0, onMobile: 0),
-        ),
-        child: FloatingActionButton.extended(
-          onPressed: () {
-            controller.openUrl(AppConstants.resumePdfUrl);
-          },
-          backgroundColor: AppTheme.primary(context),
-          label: Text(
-            AppStrings.downloadCV,
-            style: AppStyles.secondaryStyle(
-              context: context,
-              color: AppColors.whiteText,
-              fontSize: AppResponsiveness.getSize(
-                onWeb: AppSizes.font14,
-                onMobile: AppSizes.font14,
-                onTablet: AppSizes.font14,
-              ),
-            ),
-          ),
-        ),
-      ),
+      //TODO: implement this functions
+      // floatingActionButton: Padding(
+      //   padding: EdgeInsets.only(
+      //     bottom: AppResponsiveness.getSize(onWeb: 0, onMobile: 0),
+      //   ),
+      //   child: FloatingActionButton.extended(
+      //     onPressed: () {
+      //       controller.openUrl(AppConstants.resumePdfUrl);
+      //     },
+      //     backgroundColor: AppTheme.primary(context),
+      //     label: Text(
+      //       AppStrings.downloadCV,
+      //       style: AppStyles.secondaryStyle(
+      //         context: context,
+      //         color: AppColors.whiteText,
+      //         fontSize: AppResponsiveness.getSize(
+      //           onWeb: AppSizes.font14,
+      //           onMobile: AppSizes.font14,
+      //           onTablet: AppSizes.font14,
+      //         ),
+      //       ),
+      //     ),
+      //   ),
+      // ),
       body: Scaffold(
         key: _scaffoldKey,
         floatingActionButtonLocation: FloatingActionButtonLocation.centerTop,
@@ -201,7 +202,10 @@ class HomeView extends StatelessWidget {
               ),
 
               SizedBox(
-                width: AppResponsiveness.setWidth(context, width: .8),
+                width: AppResponsiveness.setWidth(
+                  context,
+                  width: AppResponsiveness.getSize(onWeb: AppSizes.fraction8),
+                ),
                 child: Column(
                   spacing: 10,
                   children: [
@@ -317,7 +321,10 @@ class HomeView extends StatelessWidget {
               SpaceH40(),
               SizedBox(
                 key: controller.workSection,
-                width: AppResponsiveness.setWidth(context, width: .8),
+                width: AppResponsiveness.setWidth(
+                  context,
+                  width: AppResponsiveness.getSize(onWeb: AppSizes.fraction8),
+                ),
                 child: Column(
                   spacing: 20,
                   children: [
@@ -398,11 +405,15 @@ class HomeView extends StatelessWidget {
                 uniqueColor: AppColors.orange,
                 lableText: AppStrings.chipOneText,
               ),
+
               SpaceH40(),
               SpaceH40(),
               SizedBox(
                 key: controller.skillSection,
-                width: AppResponsiveness.setWidth(context, width: .8),
+                width: AppResponsiveness.setWidth(
+                  context,
+                  width: AppResponsiveness.getSize(onWeb: AppSizes.fraction8),
+                ),
                 child: Column(
                   spacing: 20,
                   children: [
@@ -482,7 +493,12 @@ class HomeView extends StatelessWidget {
                       children: [
                         SpaceH40(),
                         SizedBox(
-                          width: AppResponsiveness.setWidth(context, width: .8),
+                          width: AppResponsiveness.setWidth(
+                            context,
+                            width: AppResponsiveness.getSize(
+                              onWeb: AppSizes.fraction8,
+                            ),
+                          ),
                           child: Column(
                             spacing: 20,
                             children: [
@@ -519,7 +535,14 @@ class HomeView extends StatelessWidget {
                         ),
                         SpaceH40(),
                         SizedBox(
-                          width: AppResponsiveness.setWidth(context, width: .8),
+                          width: AppResponsiveness.setWidth(
+                            context,
+                            width: AppResponsiveness.getSize(
+                              onWeb: AppSizes.fraction8,
+                              onMobile: AppSizes.fraction9,
+                              onSmallMobile: AppSizes.fraction9,
+                            ),
+                          ),
                           child: Column(
                             spacing: AppSizes.padding20,
                             children: [RightBubble(), LeftBubble()],
@@ -588,7 +611,12 @@ class HomeView extends StatelessWidget {
                         ),
                         SpaceH20(),
                         SizedBox(
-                          width: AppResponsiveness.setWidth(context, width: .8),
+                          width: AppResponsiveness.setWidth(
+                            context,
+                            width: AppResponsiveness.getSize(
+                              onWeb: AppSizes.fraction8,
+                            ),
+                          ),
                           child: Text(
                             AppStrings.endNote,
                             textAlign: TextAlign.center,

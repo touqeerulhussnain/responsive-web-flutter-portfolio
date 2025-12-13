@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_sizes.dart';
-import 'package:open_source_flutter_portfolio/core/constants/app_styles.dart';
+import '/core/constants/app_sizes.dart';
+import '/core/constants/app_styles.dart';
 import '/core/constants/app_colors.dart';
 
 class AppTheme {
@@ -17,12 +17,12 @@ class AppTheme {
 
   static final ColorScheme colorScheme = ColorScheme.fromSeed(
     seedColor: AppColors.primary,
-    // primary: AppColors.primary,
+    primary: AppColors.primary,
     surface: AppColors.backgroundColor,
   );
   static final ColorScheme darkcolorScheme = ColorScheme.fromSeed(
     seedColor: AppColors.primary,
-    // primary: AppColors.primary,
+    primary: AppColors.primary,
     surface: AppColors.backgroundColor,
     // brightness: Brightness.dark,
   );

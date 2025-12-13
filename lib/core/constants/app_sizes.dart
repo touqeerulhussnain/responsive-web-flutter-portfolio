@@ -58,4 +58,8 @@ class AppSizes {
   static const double margin32 = 32;
 
   static const double border1 = 1.0;
+
+  //FRACTION
+  static const double fraction8 = .8;
+  static const double fraction9 = .9;
 }

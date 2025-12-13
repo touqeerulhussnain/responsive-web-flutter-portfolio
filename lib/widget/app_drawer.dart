@@ -50,10 +50,10 @@ class SimpleAppDrawer extends StatelessWidget {
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(AppSizes.radius12),
               ),
-              elevation: isSelected ? 4 : 0,
-              shadowColor: isSelected
-                  ? AppTheme.borderColor(ctx)
-                  : AppColors.transparent,
+              elevation: 0,
+              // shadowColor: isSelected
+              //     ? AppTheme.borderColor(ctx)
+              //     : AppColors.transparent,
             ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

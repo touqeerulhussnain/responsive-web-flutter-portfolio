@@ -65,12 +65,21 @@ lib/
 
 ---
 
-## Screenshots
+## Screenshots Web View
 
-![Portfolio Screenshot](assets/screenshots/p1.png)
-![Portfolio Screenshot](assets/screenshots/p2.png)
-![Portfolio Screenshot](assets/screenshots/p3.png)
-![Portfolio Screenshot](assets/screenshots/p4.png)
+![Portfolio Screenshot](assets/screenshots/w1.png)
+![Portfolio Screenshot](assets/screenshots/w2.png)
+![Portfolio Screenshot](assets/screenshots/w3.png)
+![Portfolio Screenshot](assets/screenshots/w4.png)
+
+## Screenshots Mobile View
+
+![Portfolio Screenshot](assets/screenshots/m1.png)
+![Portfolio Screenshot](assets/screenshots/m2.png)
+![Portfolio Screenshot](assets/screenshots/m3.png)
+![Portfolio Screenshot](assets/screenshots/m4.png)
+![Portfolio Screenshot](assets/screenshots/m5.png)
+![Portfolio Screenshot](assets/screenshots/m6.png)
 
 ---
 
