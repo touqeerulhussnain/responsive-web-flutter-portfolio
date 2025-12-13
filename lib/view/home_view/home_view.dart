@@ -32,29 +32,29 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       //TODO: implement this functions
-      // floatingActionButton: Padding(
-      //   padding: EdgeInsets.only(
-      //     bottom: AppResponsiveness.getSize(onWeb: 0, onMobile: 0),
-      //   ),
-      //   child: FloatingActionButton.extended(
-      //     onPressed: () {
-      //       controller.openUrl(AppConstants.resumePdfUrl);
-      //     },
-      //     backgroundColor: AppTheme.primary(context),
-      //     label: Text(
-      //       AppStrings.downloadCV,
-      //       style: AppStyles.secondaryStyle(
-      //         context: context,
-      //         color: AppColors.whiteText,
-      //         fontSize: AppResponsiveness.getSize(
-      //           onWeb: AppSizes.font14,
-      //           onMobile: AppSizes.font14,
-      //           onTablet: AppSizes.font14,
-      //         ),
-      //       ),
-      //     ),
-      //   ),
-      // ),
+      floatingActionButton: Padding(
+        padding: EdgeInsets.only(
+          bottom: AppResponsiveness.getSize(onWeb: 0, onMobile: 0),
+        ),
+        child: FloatingActionButton.extended(
+          onPressed: () {
+            controller.openUrl(AppConstants.resumePdfUrl);
+          },
+          backgroundColor: AppTheme.primary(context),
+          label: Text(
+            AppStrings.downloadCV,
+            style: AppStyles.secondaryStyle(
+              context: context,
+              color: AppColors.whiteText,
+              fontSize: AppResponsiveness.getSize(
+                onWeb: AppSizes.font14,
+                onMobile: AppSizes.font14,
+                onTablet: AppSizes.font14,
+              ),
+            ),
+          ),
+        ),
+      ),
       body: Scaffold(
         key: _scaffoldKey,
         floatingActionButtonLocation: FloatingActionButtonLocation.centerTop,

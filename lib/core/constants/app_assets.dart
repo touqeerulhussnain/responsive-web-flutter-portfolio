@@ -21,7 +21,7 @@ class AppAssets {
   static final String compositionMac = "$_assest/$_icons/composition-man.svg";
   static final String facebook = "$_assest/$_icons/facebook.svg";
   static final String instagram = "$_assest/$_icons/instagram.svg";
-  static final String linkedIn = "$_assest/$_icons/linkedIn.svg";
+  static final String linkedIn = "$_assest/$_icons/linkedin.svg";
   static final String arrowDown = "$_assest/$_icons/arrow_down.svg";
   static final String ellipses = "$_assest/$_icons/ellipses.svg";
   static final String playstore = "$_assest/$_icons/playstore.svg";

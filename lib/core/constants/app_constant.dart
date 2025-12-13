@@ -10,7 +10,7 @@ class AppConstants {
   factory AppConstants() => instance;
 
   static const String linkedInUrl =
-      "https://www.linkedin.com/in/touqeerulhussnain/";
+      "https://www.linkedin.com/in/touqeerulhussnain?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
   static const String facebookUrl =
       "https://www.facebook.com/touqeerulhussnain";
   static const String instagramUrl =

@@ -1,6 +1,14 @@
 # Responsive Web Flutter Portfolio
 A fully responsive Flutter web portfolio built as a single-page application with smooth scrolling, custom animations, and a clean Plus Jakarta Sans UI. Uses GetX for state management and static data. Assets may not all be verified; avoid adding copyrighted or paid assets. GPL-3.0 licensed.
 
+
+---
+
+
+## 🔗 Links
+LIVE DEMO 👇
+- [Live Demo](https://responsive-flutter-portfolio.web.app/)
+
 ---
 
 ## Table of Contents
@@ -95,3 +103,12 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🔗 Links
+Want to connect with me? Reach me here 👇
+- [Personal Website](https://touqeerulhussnain.com/)
+
+
+---
