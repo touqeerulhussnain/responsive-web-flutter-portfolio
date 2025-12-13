@@ -4,13 +4,6 @@ A fully responsive Flutter web portfolio built as a single-page application with
 
 ---
 
-
-## 🔗 Links
-LIVE DEMO 👇
-- [Live Demo](https://responsive-flutter-portfolio.web.app/)
-
----
-
 ## Table of Contents
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -70,6 +63,13 @@ lib/
 ├── widgets/
 └── utils/
 ```
+
+---
+
+
+## 🔗 Links
+LIVE DEMO 👇
+- [Live Demo](https://responsive-flutter-portfolio.web.app/)
 
 ---
 
